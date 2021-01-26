@@ -5,7 +5,7 @@ import particleOptions from "../../assets/particles.json"
 import Header from "./header"
 import Footer from "./footer"
 
-import layoutStyles from "./layout.module.scss"
+import layoutStyles from "./layout.module.css"
 
 const Layout = props => {
   return (
