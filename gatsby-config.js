@@ -6,5 +6,20 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: "Leo Spallino",
+    author: "Leo Spallino",
+  },
+  plugins: [
+    "gatsby-plugin-react-helmet",
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: ["Open Sans:300,600"],
+        },
+      },
+    },
+    "gatsby-plugin-sass",
+  ],
 }
