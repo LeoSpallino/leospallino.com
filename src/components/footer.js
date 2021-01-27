@@ -1,28 +1,43 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import footerStyles from "./footer.module.css"
+
 const Footer = () => {
   return (
-    <footer>
-      <ul>
-        <li>
-          Made with {`\u{1f496}`} by{" "}
-          <Link to="https://github.com/LeoSpallino" target="_blank">
+    <footer className={footerStyles.footer}>
+      <ul className={footerStyles.footerList}>
+        <li className={footerStyles.footerItem}>
+          <a
+            className={footerStyles.footerLink}
+            href="https://github.com/LeoSpallino"
+            target="_blank"
+            rel="noreferrer"
+          >
             Leonardo Spallino
-          </Link>{" "}
+          </a>{" "}
           © 2021
         </li>
-        <li>
+        <li className={footerStyles.footerItem}>
           Powered by{" "}
-          <Link to="https://www.gatsbyjs.com/" target="_blank">
+          <a
+            className={footerStyles.footerLink}
+            href="https://www.gatsbyjs.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Gatsby
+          </a>
+        </li>
+        <li className={footerStyles.footerItem}>
+          <Link to="/privacy" className={footerStyles.footerLink}>
+            Privacy Policy
           </Link>
         </li>
-        <li>
-          <Link to="/privacy">Privacy Policy</Link>
-        </li>
-        <li>
-          <Link to="/legal">Legal</Link>
+        <li className={footerStyles.footerItem}>
+          <Link to="/legal" className={footerStyles.footerLink}>
+            Legal
+          </Link>
         </li>
       </ul>
     </footer>

@@ -11,11 +11,13 @@ const Layout = props => {
   return (
     <div>
       <Particles className={layoutStyles.particles} params={particleOptions} />
-      <div>
-        <Header />
-        {props.children}
+      <div className={layoutStyles.app}>
+        <div>
+          <Header />
+          {props.children}
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   )
 }
