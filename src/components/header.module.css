@@ -3,13 +3,14 @@
   align-content: center;
   justify-content: center;
   margin: 0;
+  padding: 0;
   z-index: 3;
 }
 
 .nav-list {
   list-style-type: none;
   display: inline-flex;
-  max-width: 800px;
+  padding: 0;
 }
 
 .nav-item {
@@ -30,4 +31,13 @@
 .active-nav-item {
   color: #ffffff;
   font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .nav-item {
+    font-size: 1rem;
+  }
+  .nav-link {
+    font-size: 1rem;
+  }
 }

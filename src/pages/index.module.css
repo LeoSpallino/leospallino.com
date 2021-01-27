@@ -1,0 +1,59 @@
+.outerContainer {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 0 0.5em;
+  z-index: 1;
+  padding-bottom: 6.5em;
+}
+
+.headline {
+  font-size: 1.7rem;
+  color: var(--primary-color);
+  font-weight: 300;
+}
+
+.underline {
+  font-size: 1.125rem;
+  color: var(--sec-color);
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links a:hover {
+  border-bottom: 1px solid var(--primary-color);
+  margin-bottom: -1px;
+}
+
+.links svg {
+  width: 2rem;
+  height: 2rem;
+  color: var(--sec-color);
+  padding: 0.75rem;
+}
+
+@media (min-width: 576px) {
+  .headline {
+    font-size: 2.5rem;
+  }
+
+  .underline {
+    font-size: 1.5rem;
+  }
+
+  .links a {
+    margin: 0 0.5rem;
+  }
+
+  .links svg {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
