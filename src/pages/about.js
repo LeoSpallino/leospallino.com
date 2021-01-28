@@ -16,6 +16,7 @@ const About = () => {
           student currently studying Materials Engineering at McMaster
           University expecting to graduate in April 2022.
           <br />
+          <br />
           I'm currently seeking co-op opportunities beginning in May 2021, and
           have experience working with React, React-Native, JavaScript, HTML,
           CSS

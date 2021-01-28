@@ -3,11 +3,13 @@ import React from "react"
 import Layout from "../components/layout"
 import Head from "../components/head"
 
+import legalStyles from "./legal.module.css"
+
 const Privacy = () => {
   return (
     <Layout>
       <Head title="Privacy Policy" />
-      <div>
+      <div className={legalStyles.container}>
         <h1>Privacy Policy for Leo Spallino</h1>
 
         <p>

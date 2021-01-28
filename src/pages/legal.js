@@ -3,11 +3,13 @@ import React from "react"
 import Layout from "../components/layout"
 import Head from "../components/head"
 
+import legalStyles from "./legal.module.css"
+
 const Legal = () => {
   return (
     <Layout>
       <Head title="Legal" />
-      <div>
+      <div className={legalStyles.container}>
         <h1>Website Terms and Conditions of Use</h1>
 
         <h2>1. Terms</h2>
