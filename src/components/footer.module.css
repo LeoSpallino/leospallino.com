@@ -2,7 +2,7 @@
   display: flex;
   align-content: center;
   justify-content: center;
-  position: absolute;
+  position: relative;
   align-items: center;
   bottom: 0;
   width: 100%;
@@ -34,6 +34,9 @@
 }
 
 @media (max-width: 760px) {
+  .footer {
+    margin-top: 25%;
+  }
   .footer-list {
     list-style-type: none;
     display: block;

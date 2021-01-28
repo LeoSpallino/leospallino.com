@@ -16,7 +16,7 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["Open Sans:300,600"],
+          families: ["Open Sans:300,500"],
         },
       },
     },
