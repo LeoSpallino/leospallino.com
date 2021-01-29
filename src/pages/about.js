@@ -23,9 +23,7 @@ const About = () => {
           playing music.
           <br />
           <br />
-          I'm currently seeking co-op opportunities beginning in May 2021, and
-          have experience working with React, React-Native, JavaScript, HTML,
-          CSS.
+          I'm currently seeking co-op opportunities beginning in May 2021.
           <br />
           <br />
           Technologies I use:
